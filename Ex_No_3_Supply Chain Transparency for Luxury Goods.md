@@ -1,16 +1,27 @@
+# Ex No: 3 - Supply Chain Transparency for Luxury Goods
+## Name : SARON XAVIER A
+## Reg No: 212223230197
+## Date : 21-04-2025
 # Aim:
 To develop a smart contract that tracks the supply chain of luxury goods, ensuring authenticity.
 # Algorithm:
-The manufacturer records product creation details on-chain.
+## step 1:
+Manufacturer inputs productId and name, and registers the product if it's not already registered.
+## step 2:
+Contract stores the product with name, msg.sender as currentOwner, and sets verified = true.
+## step 3:
+For ownership transfer, contract checks if msg.sender is the current owner of the product.
+## step 4:
+If valid, contract updates currentOwner to the new owner's address and emits an event.
+## step 5:
+Repeat the ownership transfer at each supply chain checkpoint by authorized parties.
+## step 6:
+Buyer or verifier inputs productId to retrieve product details from the smart contract.
+## step 7:
+Contract returns the product’s name, currentOwner, and verified status for authenticity check.
+## step 8:
+All actions (registration and transfers) are permanently recorded on-chain for transparency and trust.
 
-
-The product moves through different supply chain checkpoints.
-
-
-The ownership of the product can be transferred securely.
-
-
-Buyers can verify the product’s authenticity.
 
 
 # Program:
@@ -64,5 +75,15 @@ Helps prevent counterfeit luxury goods.
 
 Teaches real-world supply chain use cases.
 
-# RESULT : 
+# Output:
+## Register
+![Screenshot 2025-04-21 143508](https://github.com/user-attachments/assets/6d44ad51-aced-4cd3-bad5-15325862813b)
+## Transaction
+![image](https://github.com/user-attachments/assets/353ce177-7094-4f31-8137-3c03eccc4147)
+## Verification
+![image](https://github.com/user-attachments/assets/135e493b-3f7e-4ccd-beda-92d301269e13)
 
+
+
+# RESULT : 
+A smart contract that tracks the supply chain of luxury goods and ensuring authenticity is successfully executed.
