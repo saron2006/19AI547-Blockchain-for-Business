@@ -93,20 +93,25 @@ contract AIPoweredNegotiation {
 
 # Expected Output:
 Buyers submit offers, and the contract auto-negotiates the price.
+![exp7 1](https://github.com/user-attachments/assets/16fe6861-44dd-46c8-8074-4974edfca64b)
 
 
 If the buyer’s offer is fair, the deal is executed.
+![exp7 2](https://github.com/user-attachments/assets/a43eed67-a93b-458f-a846-4b3e3fe8448c)
 
 
 If the offer is too low, the contract suggests a counteroffer.
 
+![exp7 3](https://github.com/user-attachments/assets/e8830a3b-7c21-405d-b06a-4ec37e4f7484)
 
 
 # High-Level Overview:
 First-of-its-kind AI-powered pricing contract.
 
 
+
 Mimics real-world price negotiations using dynamic on-chain pricing.
+
 
 
 Can be extended to AI oracles for real-time market data.
