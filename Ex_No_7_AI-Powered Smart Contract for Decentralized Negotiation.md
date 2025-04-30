@@ -120,5 +120,5 @@ Can be extended to AI oracles for real-time market data.
 Inspired by AI-enhanced commerce and eBay-like decentralized auctions.
 
 # RESULT:
-Thus,Zero-Knowledge Proof (ZK) Private Voting System has been created and successfully executed.
+Thus,AI-Powered Smart Contract for Decentralized Negotiation has been created and successfully executed.
 
