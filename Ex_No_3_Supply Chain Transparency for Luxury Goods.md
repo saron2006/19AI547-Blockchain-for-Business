@@ -86,4 +86,4 @@ Teaches real-world supply chain use cases.
 
 
 # RESULT : 
-A smart contract that tracks the supply chain of luxury goods and ensuring authenticity is successfully executed.
+Thus ,A smart contract that tracks the supply chain of luxury goods and ensuring authenticity is successfully executed.
