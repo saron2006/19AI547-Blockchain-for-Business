@@ -112,4 +112,4 @@ Uses Ethereum's built-in cryptographic functions.
 Inspired by Web3 login solutions like MetaMask authentication.
 
 # RESULT: 
-THIS CODE EXECUTED SUCCESFULLY
+Thus,implement a secure passwordless authentication system using public-private key cryptography on Ethereum. This prevents phishing and password leaks.
